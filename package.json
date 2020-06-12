@@ -1,0 +1,25 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd front && npm install && npm run build",
+    "start": "node src/app.js"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xahram/Dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xahram/Dashboard/issues"
+  },
+  "homepage": "https://github.com/xahram/Dashboard#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
